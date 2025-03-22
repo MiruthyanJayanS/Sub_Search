@@ -3,7 +3,7 @@
 ## Sub_Search Chatbot
 
 ### Tech Stack
-This project is a Retrieval-Augmented Generation (RAG) system built using LangChain for natural language processing and big data handling. It leverages Python for scripting and automation. Key dependencies include `pandas` for data manipulation, `numpy` for numerical operations, and `sqlite3` for database management. Refer to the `requirements.txt` file for a complete list of dependencies.
+This project is a Sub Search Chatbot built with Streamlit and integrated with a subtitle vector database. It allows users to interact via text chat or voice input to query subtitles. The bot retrieves relevant movies based on the user query, processes the response using a Google Generative AI model, and stores the chat history in a SQLite database. It supports multiple user sessions, with each session linked to a unique user ID and stored in a JSON file. The system also allows users to load existing sessions or create new ones for continued interactions.
 
 ## Getting Started
 
