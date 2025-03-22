@@ -1,13 +1,18 @@
 # Project Readme
 
+## Sub_Search Chatbot
+
+### Tech Stack
+This project is a Retrieval-Augmented Generation (RAG) system built using LangChain for natural language processing and big data handling. It leverages Python for scripting and automation. Key dependencies include `pandas` for data manipulation, `numpy` for numerical operations, and `sqlite3` for database management. Refer to the `requirements.txt` file for a complete list of dependencies.
+
 ## Getting Started
 
 Follow the steps below to set up and run the project:
 
 ### 1. Clone the Repository
 ```bash
-git clone <repository-url>
-cd <repository-folder>
+git clone https://github.com/MiruthyanJayanS/Sub_Search.git
+cd Sub_Search
 ```
 
 ### 2. Save the Dataset
@@ -20,9 +25,9 @@ python Data_Preprocessing.py
 ```
 
 ### 4. Run the Main Script
-Run the `main.py` file to start the project:
+Run the `main.py` file using Streamlit to start the project:
 ```bash
-python main.py
+streamlit run main.py
 ```
 
 Follow the instructions above to ensure proper setup and execution.
